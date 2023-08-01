@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import styled from "styled-components";
-import Logo from "../assets/logo.svg";
+import Logo from "../assets/Premium Vector _ Cute koala peeking cartoon, vector illustration.jpg";
 
 export default function Contacts({ contacts, changeChat }) {
   const [currentUserName, setCurrentUserName] = useState(undefined);
@@ -23,7 +23,7 @@ export default function Contacts({ contacts, changeChat }) {
         <Container>
           <div className="brand">
             <img src={Logo} alt="logo" />
-            <h3>snappy</h3>
+            <h3>HCH</h3>
           </div>
           <div className="contacts">
             {contacts.map((contact, index) => {
@@ -76,6 +76,7 @@ const Container = styled.div`
     justify-content: center;
     img {
       height: 2rem;
+      border-radius: 50%;
     }
     h3 {
       color: white;
